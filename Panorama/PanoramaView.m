@@ -8,7 +8,6 @@
 
 #import <CoreMotion/CoreMotion.h>
 #import <OpenGLES/ES1/gl.h>
-#import <GLKit/GLKit.h>
 #import "PanoramaView.h"
 
 #define FPS 60
