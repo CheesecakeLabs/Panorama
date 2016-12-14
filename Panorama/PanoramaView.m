@@ -64,6 +64,21 @@ GLKQuaternion GLKQuaternionFromTwoVectors(GLKVector3 u, GLKVector3 v){
 //    }
 	return [self initWithFrame:[[UIScreen mainScreen] bounds]];
 }
+- (id)initWithCoder:(NSCoder *)decoder
+{
+    self = [super initWithCoder:decoder];
+    if (self) {
+        EAGLContext *context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1];
+        [EAGLContext setCurrentContext:context];
+        self.context = context;
+        [self initDevice];
+        [self initOpenGL:context];
+        sphere = [[Sphere alloc] init:48 slices:48 radius:10.0 textureFile:nil];
+        meridians = [[Sphere alloc] init:48 slices:48 radius:8.0 textureFile:@"equirectangular-projection-lines.png"];
+        buttonsArray = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
 - (id)initWithFrame:(CGRect)frame{
 	EAGLContext *context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1];
 	[EAGLContext setCurrentContext:context];
