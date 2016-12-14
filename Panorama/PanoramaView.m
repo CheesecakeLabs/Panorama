@@ -118,6 +118,13 @@ GLKQuaternion GLKQuaternionFromTwoVectors(GLKVector3 u, GLKVector3 v){
 	[panGesture setEnabled:NO];
 	[self addGestureRecognizer:panGesture];
 }
+- (void)updateAspectRatio {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        _aspectRatio = self.frame.size.width/self.frame.size.height;
+        float newFieldOfView = 45 + 45 * atanf(_aspectRatio);
+        [self setFieldOfView:newFieldOfView];
+    });
+}
 -(void)setFieldOfView:(float)fieldOfView{
 	_fieldOfView = fieldOfView;
 	[self rebuildProjectionMatrix];

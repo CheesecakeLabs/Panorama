@@ -90,6 +90,11 @@
 @property (nonatomic) BOOL showTouches;
 
 /**
+ * Updates the image's aspect ratio, based on it's frame. It should be called to fix the aspect ratio AFTER changing orientation
+ */
+- (void)updateAspectRatio;
+
+/**
  * Convert a 3D world-coordinate (specified by a vector from the origin) to a 2D on-screen coordinate
  *
  * @param GLKVector3 coordinate location from origin. Use with CGRectContainsPoint( [[UIScreen mainScreen] bounds], screenPoint )
