@@ -20,8 +20,8 @@
 	[super viewDidLoad];
 	panoramaView = [[PanoramaView alloc] init];
 	[panoramaView setImageWithName:@"park_2048.jpg"];
-	[panoramaView setOrientToDevice:YES];
-	[panoramaView setTouchToPan:NO];
+	[panoramaView setOrientToDevice:NO];
+	[panoramaView setTouchToPan:YES];
 	[panoramaView setPinchToZoom:YES];
 	[panoramaView setShowTouches:NO];
 	[panoramaView setVRMode:NO];

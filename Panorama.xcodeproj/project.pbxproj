@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9A078D1E044B9900B8C8E3 /* Sphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A078C1E044B9900B8C8E3 /* Sphere.m */; };
 		D55E8FB21828D2360076A9D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D55E8F951828D2360076A9D7 /* AppDelegate.m */; };
 		D55E8FB61828D2360076A9D7 /* equirectangular-projection-lines.png in Resources */ = {isa = PBXBuildFile; fileRef = D55E8F9C1828D2360076A9D7 /* equirectangular-projection-lines.png */; };
 		D55E8FC01828D2360076A9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D55E8FA71828D2360076A9D7 /* main.m */; };
@@ -47,11 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D543FEC81D8485FF00DA5ED4 /* spectrum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spectrum.png; path = images/spectrum.png; sourceTree = "<group>"; };
+		1F9A078C1E044B9900B8C8E3 /* Sphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sphere.m; path = Sphere.m; sourceTree = "<group>"; };
+		1F9A078E1E044BC100B8C8E3 /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = Sphere.h; sourceTree = "<group>"; };
 		D55E8F941828D2360076A9D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D55E8F951828D2360076A9D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D55E8F9B1828D2360076A9D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D55E8F9C1828D2360076A9D7 /* equirectangular-projection-lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "equirectangular-projection-lines.png"; path = "images/equirectangular-projection-lines.png"; sourceTree = "<group>"; };
+		D55E8F9C1828D2360076A9D7 /* equirectangular-projection-lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "equirectangular-projection-lines.png"; path = "equirectangular-projection-lines.png"; sourceTree = "<group>"; };
 		D55E8FA71828D2360076A9D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D55E8FA81828D2360076A9D7 /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaView.h; sourceTree = "<group>"; };
 		D55E8FA91828D2360076A9D7 /* PanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaView.m; sourceTree = "<group>"; };
@@ -71,10 +73,10 @@
 		D55E8FDA1828D3F50076A9D7 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
 		D55E8FDB1828D3F50076A9D7 /* 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76.png; sourceTree = "<group>"; };
 		D55E8FDC1828D3F50076A9D7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		D560B0B31D7F260500535DCF /* button-screen-double.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-screen-double.png"; path = "images/button-screen-double.png"; sourceTree = "<group>"; };
-		D560B0B41D7F260500535DCF /* button-screen-single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-screen-single.png"; path = "images/button-screen-single.png"; sourceTree = "<group>"; };
-		D5C8B44B18A8E58700051A88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "images/Default-568h@2x.png"; sourceTree = "<group>"; };
-		D5EC7AB8183AFBC400F62609 /* park_2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = park_2048.jpg; path = images/park_2048.jpg; sourceTree = "<group>"; };
+		D560B0B31D7F260500535DCF /* button-screen-double.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-screen-double.png"; path = "button-screen-double.png"; sourceTree = "<group>"; };
+		D560B0B41D7F260500535DCF /* button-screen-single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-screen-single.png"; path = "button-screen-single.png"; sourceTree = "<group>"; };
+		D5C8B44B18A8E58700051A88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D5EC7AB8183AFBC400F62609 /* park_2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = park_2048.jpg; path = park_2048.jpg; sourceTree = "<group>"; };
 		D5FAE07517C8956600AE6EC9 /* Panorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FAE07817C8956600AE6EC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5FAE07A17C8956600AE6EC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,17 +113,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F9A078B1E044B5700B8C8E3 /* Panorama */ = {
+			isa = PBXGroup;
+			children = (
+				D55E8FA81828D2360076A9D7 /* PanoramaView.h */,
+				D55E8FA91828D2360076A9D7 /* PanoramaView.m */,
+				1F9A078E1E044BC100B8C8E3 /* Sphere.h */,
+				1F9A078C1E044B9900B8C8E3 /* Sphere.m */,
+			);
+			name = Panorama;
+			path = Panorama;
+			sourceTree = "<group>";
+		};
 		D55E8F931828D2360076A9D7 /* Panorama */ = {
 			isa = PBXGroup;
 			children = (
+				1F9A078B1E044B5700B8C8E3 /* Panorama */,
+				D55E8FD21828D3790076A9D7 /* Supporting Files */,
+				D55E8FD11828D3400076A9D7 /* images */,
 				D55E8F941828D2360076A9D7 /* AppDelegate.h */,
 				D55E8F951828D2360076A9D7 /* AppDelegate.m */,
 				D55E8FB01828D2360076A9D7 /* ViewController.h */,
 				D55E8FB11828D2360076A9D7 /* ViewController.m */,
-				D55E8FA81828D2360076A9D7 /* PanoramaView.h */,
-				D55E8FA91828D2360076A9D7 /* PanoramaView.m */,
-				D55E8FD11828D3400076A9D7 /* images */,
-				D55E8FD21828D3790076A9D7 /* Supporting Files */,
 			);
 			path = Panorama;
 			sourceTree = "<group>";
@@ -129,9 +142,9 @@
 		D55E8FC71828D23C0076A9D7 /* PanoramaTests */ = {
 			isa = PBXGroup;
 			children = (
-				D55E8FC81828D23C0076A9D7 /* PanoramaTests.m */,
 				D55E8FC91828D23C0076A9D7 /* InfoPlist.strings */,
 				D55E8FCB1828D23D0076A9D7 /* PanoramaTests-Info.plist */,
+				D55E8FC81828D23C0076A9D7 /* PanoramaTests.m */,
 			);
 			path = PanoramaTests;
 			sourceTree = "<group>";
@@ -139,26 +152,27 @@
 		D55E8FD11828D3400076A9D7 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				D5EC7AB8183AFBC400F62609 /* park_2048.jpg */,
-				D543FEC81D8485FF00DA5ED4 /* spectrum.png */,
-				D55E8F9C1828D2360076A9D7 /* equirectangular-projection-lines.png */,
 				D560B0B31D7F260500535DCF /* button-screen-double.png */,
 				D560B0B41D7F260500535DCF /* button-screen-single.png */,
+				D55E8F9C1828D2360076A9D7 /* equirectangular-projection-lines.png */,
+				D5EC7AB8183AFBC400F62609 /* park_2048.jpg */,
 			);
 			name = images;
+			path = images;
 			sourceTree = "<group>";
 		};
 		D55E8FD21828D3790076A9D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				D55E8FD31828D3F50076A9D7 /* icons */,
-				D55E8FA71828D2360076A9D7 /* main.m */,
-				D55E8FAD1828D2360076A9D7 /* Panorama-Info.plist */,
-				D55E8F9A1828D2360076A9D7 /* InfoPlist.strings */,
-				D55E8FAE1828D2360076A9D7 /* Panorama-Prefix.pch */,
 				D5C8B44B18A8E58700051A88 /* Default-568h@2x.png */,
+				D55E8F9A1828D2360076A9D7 /* InfoPlist.strings */,
+				D55E8FAD1828D2360076A9D7 /* Panorama-Info.plist */,
+				D55E8FAE1828D2360076A9D7 /* Panorama-Prefix.pch */,
+				D55E8FA71828D2360076A9D7 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D55E8FD31828D3F50076A9D7 /* icons */ = {
@@ -180,9 +194,9 @@
 		D5FAE06C17C8956500AE6EC9 = {
 			isa = PBXGroup;
 			children = (
+				D5FAE07717C8956600AE6EC9 /* Frameworks */,
 				D55E8F931828D2360076A9D7 /* Panorama */,
 				D55E8FC71828D23C0076A9D7 /* PanoramaTests */,
-				D5FAE07717C8956600AE6EC9 /* Frameworks */,
 				D5FAE07617C8956600AE6EC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -324,6 +338,7 @@
 				D55E8FB21828D2360076A9D7 /* AppDelegate.m in Sources */,
 				D55E8FC61828D2360076A9D7 /* ViewController.m in Sources */,
 				D55E8FC11828D2360076A9D7 /* PanoramaView.m in Sources */,
+				1F9A078D1E044B9900B8C8E3 /* Sphere.m in Sources */,
 				D55E8FC01828D2360076A9D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +368,7 @@
 				D55E8F9B1828D2360076A9D7 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = .;
 			sourceTree = "<group>";
 		};
 		D55E8FC91828D23C0076A9D7 /* InfoPlist.strings */ = {
@@ -361,6 +377,7 @@
 				D55E8FCA1828D23C0076A9D7 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -444,8 +461,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Panorama/Panorama-Prefix.pch";
-				INFOPLIST_FILE = "Panorama/Panorama-Info.plist";
+				GCC_PREFIX_HEADER = "Panorama/Supporting Files/Panorama-Prefix.pch";
+				INFOPLIST_FILE = "Panorama/Supporting Files/Panorama-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Panorama;
 				PROVISIONING_PROFILE = "";
@@ -461,8 +478,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Panorama/Panorama-Prefix.pch";
-				INFOPLIST_FILE = "Panorama/Panorama-Info.plist";
+				GCC_PREFIX_HEADER = "Panorama/Supporting Files/Panorama-Prefix.pch";
+				INFOPLIST_FILE = "Panorama/Supporting Files/Panorama-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Panorama;
 				PROVISIONING_PROFILE = "";
@@ -480,7 +497,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Panorama/Panorama-Prefix.pch";
+				GCC_PREFIX_HEADER = "Panorama/Supporting Files/Panorama-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -502,7 +519,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Panorama/Panorama-Prefix.pch";
+				GCC_PREFIX_HEADER = "Panorama/Supporting Files/Panorama-Prefix.pch";
 				INFOPLIST_FILE = "PanoramaTests/PanoramaTests-Info.plist";
 				PRODUCT_NAME = PanoramaTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
