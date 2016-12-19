@@ -150,6 +150,10 @@
  */
 - (void)addButton:(UIButton *)button toAngleDegrees:(float)degrees;
 
+/**
+ * Removes all Buttons from the Panorama scene
+ */
+- (void)removeAllButtons;
 
 /**
  * Gathers 3D Vector to represent a given angle (in degrees)
