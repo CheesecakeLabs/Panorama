@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.requires_arc = true
 
-  s.source_files = 'Panorama/PanoramaView.m', 'Panorama/PanoramaView.h'
+  s.source_files = 'Panorama/Panorama/PanoramaView.m', 'Panorama/Panorama/PanoramaView.h'
 
   s.frameworks = 'UIKit', 'OpenGLES', 'GLKit', 'CoreMotion'
 end
