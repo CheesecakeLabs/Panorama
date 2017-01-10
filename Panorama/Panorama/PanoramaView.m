@@ -62,6 +62,7 @@ GLKQuaternion GLKQuaternionFromTwoVectors(GLKVector3 u, GLKVector3 v){
         sphere = [[Sphere alloc] init:48 slices:48 radius:10.0 textureFile:nil];
         meridians = [[Sphere alloc] init:48 slices:48 radius:8.0 textureFile:@"equirectangular-projection-lines.png"];
         buttonsArray = [[NSMutableArray alloc] init];
+        self.fovMax = FOV_MAX;
     }
     return self;
 }
@@ -83,6 +84,7 @@ GLKQuaternion GLKQuaternionFromTwoVectors(GLKVector3 u, GLKVector3 v){
         sphere = [[Sphere alloc] init:48 slices:48 radius:10.0 textureFile:nil];
         meridians = [[Sphere alloc] init:48 slices:48 radius:8.0 textureFile:@"equirectangular-projection-lines.png"];
         buttonsArray = [[NSMutableArray alloc] init];
+        self.fovMax = FOV_MAX;
     }
     return self;
 }
@@ -417,7 +419,7 @@ GLKQuaternion GLKQuaternionFromTwoVectors(GLKVector3 u, GLKVector3 v){
     if([sender state] == 2){
         CGFloat newFOV = zoom / [sender scale];
         if(newFOV < FOV_MIN) newFOV = FOV_MIN;
-        else if(newFOV > FOV_MAX) newFOV = FOV_MAX;
+        else if(newFOV > self.fovMax) newFOV = self.fovMax;
         [self setFieldOfView:newFOV];
     }
     if([sender state] == 3){

@@ -25,6 +25,7 @@
 	[panoramaView setPinchToZoom:YES];
 	[panoramaView setShowTouches:NO];
 	[panoramaView setVRMode:NO];
+//    [panoramaView setFovMax:75];
 	[self setView:panoramaView];
     [self setupButtons];
 }

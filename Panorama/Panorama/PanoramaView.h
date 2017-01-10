@@ -89,6 +89,9 @@
 /// Dynamic overlay of latitude and longitude intersection lines for all touches
 @property (nonatomic) BOOL showTouches;
 
+// Maximum zoom out
+@property (nonatomic) float fovMax;
+
 /**
  * Updates the image's aspect ratio, based on it's frame. It should be called to fix the aspect ratio AFTER changing orientation
  */
